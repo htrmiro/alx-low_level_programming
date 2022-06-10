@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-**
-*main - main block
-*get last digit of random number
-*check if greater than 5, if it's 0, or if it's less than 6 
-*Return:0
+/**
+ *main - main block
+ *get last digit of random number
+ *check if greater than 5, if its 0, or if its less than 6 
+ *Return:0
 */
 
 int main(void)
