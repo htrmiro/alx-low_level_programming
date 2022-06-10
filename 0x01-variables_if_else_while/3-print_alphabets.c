@@ -9,14 +9,13 @@
 
 int main(void)
 {
-	char c;
-	c = 'a';
+	char c = 'A';
+
 	while (c <= 'z')
 	{
 		 putchar(c);
 		 c++;
 	}
-
 	c = 'A';
 	while (c <= 'Z')
 	{
@@ -24,6 +23,5 @@ int main(void)
 		c++;
 	}
 	putchar('\n');
-	
 	return (0);
 }
