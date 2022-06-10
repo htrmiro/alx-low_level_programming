@@ -9,19 +9,19 @@
 
 int main(void)
 {
-	int c;
+	char c;
 	c = 'a';
 	while (c <= 'z')
 	{
 		 putchar(c);
 		 c++;
 	}
-	int d;
-	d = 'A'
-	while (d <= 'Z')
+
+	c = 'A'
+	while (c <= 'Z')
 	{
-		putchar(d);
-		d++;
+		putchar(c);
+		c++;
 	}
 	putchar('\n');
 	
