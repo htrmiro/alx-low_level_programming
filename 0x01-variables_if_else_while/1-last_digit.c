@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-** main - main block
+/** main - main block
 * get last digit of random number
 * check if greater than 5, if it's 0, or if it's less than 6 
 * Return:0
