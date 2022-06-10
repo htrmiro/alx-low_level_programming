@@ -9,19 +9,17 @@
 
 int main(void)
 {
-char c = 'a';
+	char c
 
-for (c <= 'z')
-{
-putchar(c);
-c++;
-}
-c = 'A';
-for (c <= 'Z')
-{
-putchar(c);
-c++;
-}
-putchar('\n');
-return (0);
+	for (c = 'a', c <= 'z', c++)
+	{
+		putchar(c);
+	}
+	c = 'A';
+	for (c = 'A', c <= 'Z', c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
+	return (0);
 }
