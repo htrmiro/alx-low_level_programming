@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-**
+/**
  *main - main entry
  *all single digit numbers base ten from zero
  *
  * Return: 0
-*/
+ */
 
 int main(void)
 {
