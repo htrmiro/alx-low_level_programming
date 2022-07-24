@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 
-int main{
+int main(){
 	write (1," _putchar\n",20);
 
 
