@@ -3,7 +3,7 @@
 
 
 int main(){
-	write (1," _putchar\n",20);
+	write (1," _putchar\n",9);
 
 
 
