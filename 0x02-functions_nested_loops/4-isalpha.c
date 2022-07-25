@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - Return 1 if it's a letter, 0 if not.
+ * _isalpha - Return 1 if it's a letter, 0 if not.
  * @c: char type letter
  * Description: Deduce if it's a letter or not
  * Return: 1 if letter, 0 if not letter
