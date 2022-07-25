@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * print_sign - print the sign of a number
- * @n - integer received
+ * n - integer received
  * Description - return 0 and print 0 if n is zero
  * return: 1, 0, -1 for greater, equal and less
 */
-
 int print_sign(int n)
 {
 	if (n > 0)
