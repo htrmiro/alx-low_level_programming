@@ -1,6 +1,6 @@
 #include "main.h"
 
-**
+/**
  * print_sign - print the sign of a number
  * @n - integer received
  * Description - return 0 and print 0 if n is zero
