@@ -3,7 +3,7 @@
  * print_alphabet_x10 - print all lowercase letters 10 times using '_putchar'
  *return: 0
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int i = 0;
 	char c;
