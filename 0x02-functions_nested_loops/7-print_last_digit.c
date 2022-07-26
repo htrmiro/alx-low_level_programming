@@ -1,6 +1,6 @@
 #include "main.h"
 
-**
+/**
  * print_last_digit - print the last digit of a number
  * @n: int type integer , positive or negative
  * Description: Prints out last digit of number.
