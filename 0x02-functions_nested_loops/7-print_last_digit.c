@@ -9,13 +9,13 @@
 
 int print_last_digit(int a)
 {
-	int a;
-	if (a > 9 || a < -9)
+	int av;
+	if (a > 9 || a < 9)
 	{
-		return (a % 10);
+		return (av % 10);
 	}
         else
 	{
-		return (a);
+		return (av);
 	}
 }
