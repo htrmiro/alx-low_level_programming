@@ -2,7 +2,7 @@
 
 /**
  * print_last_digit - print the last digit of a number
- * @a - int type integer , positive or negative
+ * @n - int type integer , positive or negative
  * Description - Prints out last digit of number.
  * Return: the last digit of @a.
 */
