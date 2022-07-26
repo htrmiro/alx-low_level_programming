@@ -7,15 +7,20 @@
  * Return: the last digit of @a.
 */
 
-int print_last_digit(int a)
+int print_last_digit(int n)
 {
-	int av;
-	if (a > 9 || a < 9)
+	int nv;
+
+	if (n < 0)
 	{
-		return (av % 10);
+		nv = -1 * (n % 10);
+		_putchar(nv + '0');
+		return (nv);
 	}
-        else
+	else
 	{
-		return (av);
+		nv = n % 10;
+		_putchar(nv + '0');
+		return (nv);
 	}
 }
